@@ -71,7 +71,7 @@ void printArray(int A[], int size) {
 
 // Función principal
 int main() {
-    int arr[] = {12, 11, 13, 5, 6, 7};
+    int arr[] = {25, 67, 77, 23, 32, 32, 34};
     int arr_size = sizeof(arr) / sizeof(arr[0]);
     
     printf("Arreglo original:\n");
