@@ -1,9 +1,8 @@
 #include <stdio.h>
 int main(){
+    int boxes, points, sum = 0, answer = 0;
 
-    int boxes, points, sum, answer;
     scanf("%d", &boxes);
-
     for (int i = 0; i < boxes; i++){
         scanf("%d", &points);
         sum += points;
